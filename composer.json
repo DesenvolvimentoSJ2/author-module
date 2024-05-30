@@ -1,23 +1,28 @@
 {
     "name": "nwidart/author",
-    "description": "",
+    "type": "laravel-module",
+    "description": "A Laravel module for authors",
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Pedro Lucas",
+            "email": "pedro.moreira@sabaojua.com.br"
         }
     ],
     "extra": {
         "laravel": {
-            "providers": [],
-            "aliases": {
-
-            }
+            "providers": [
+                "Modules\\Author\\Providers\\AuthorServiceProvider"
+            ],
+            "aliases": {}
         }
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Author\\": ""
+            "Modules\\Author\\": "src/"
         }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0"
     }
 }
