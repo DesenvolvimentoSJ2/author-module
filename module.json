@@ -1,0 +1,11 @@
+{
+    "name": "Author",
+    "alias": "author",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Author\\Providers\\AuthorServiceProvider"
+    ],
+    "files": []
+}
