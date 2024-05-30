@@ -2,6 +2,7 @@
     "name": "desenvolvimentosj2/author",
     "type": "laravel-module",
     "description": "A Laravel module for authors",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "Pedro Lucas",
